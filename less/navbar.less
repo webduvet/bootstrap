@@ -422,7 +422,7 @@
       &:hover,
       &:focus {
         color: @navbar-default-link-hover-color;
-        background-color: @navbar-default-link-hover-bg;
+        //background-color: @navbar-default-link-hover-bg;
       }
     }
     > .active > a {
@@ -430,7 +430,7 @@
       &:hover,
       &:focus {
         color: @navbar-default-link-active-color;
-        background-color: @navbar-default-link-active-bg;
+        //background-color: @navbar-default-link-active-bg;
       }
     }
     > .disabled > a {
@@ -438,7 +438,7 @@
       &:hover,
       &:focus {
         color: @navbar-default-link-disabled-color;
-        background-color: @navbar-default-link-disabled-bg;
+        //background-color: @navbar-default-link-disabled-bg;
       }
     }
   }
@@ -466,7 +466,7 @@
       &,
       &:hover,
       &:focus {
-        background-color: @navbar-default-link-active-bg;
+        //background-color: @navbar-default-link-active-bg;
         color: @navbar-default-link-active-color;
       }
     }
@@ -479,14 +479,14 @@
           &:hover,
           &:focus {
             color: @navbar-default-link-hover-color;
-            background-color: @navbar-default-link-hover-bg;
+            //background-color: @navbar-default-link-hover-bg;
           }
         }
         > .active > a {
           &,
           &:hover,
           &:focus {
-            color: @navbar-default-link-active-color;
+            //color: @navbar-default-link-active-color;
             background-color: @navbar-default-link-active-bg;
           }
         }
@@ -495,7 +495,7 @@
           &:hover,
           &:focus {
             color: @navbar-default-link-disabled-color;
-            background-color: @navbar-default-link-disabled-bg;
+            //background-color: @navbar-default-link-disabled-bg;
           }
         }
       }
@@ -556,7 +556,7 @@
       &:hover,
       &:focus {
         color: @navbar-inverse-link-hover-color;
-        background-color: @navbar-inverse-link-hover-bg;
+        //background-color: @navbar-inverse-link-hover-bg;
       }
     }
     > .active > a {
@@ -564,7 +564,7 @@
       &:hover,
       &:focus {
         color: @navbar-inverse-link-active-color;
-        background-color: @navbar-inverse-link-active-bg;
+        //background-color: @navbar-inverse-link-active-bg;
       }
     }
     > .disabled > a {
@@ -572,7 +572,7 @@
       &:hover,
       &:focus {
         color: @navbar-inverse-link-disabled-color;
-        background-color: @navbar-inverse-link-disabled-bg;
+        //background-color: @navbar-inverse-link-disabled-bg;
       }
     }
   }
@@ -582,7 +582,7 @@
     border-color: @navbar-inverse-toggle-border-color;
     &:hover,
     &:focus {
-      background-color: @navbar-inverse-toggle-hover-bg;
+      //background-color: @navbar-inverse-toggle-hover-bg;
     }
     .icon-bar {
       background-color: @navbar-inverse-toggle-icon-bar-bg;
@@ -600,7 +600,7 @@
       &,
       &:hover,
       &:focus {
-        background-color: @navbar-inverse-link-active-bg;
+        //background-color: @navbar-inverse-link-active-bg;
         color: @navbar-inverse-link-active-color;
       }
     }
@@ -619,7 +619,7 @@
           &:hover,
           &:focus {
             color: @navbar-inverse-link-hover-color;
-            background-color: @navbar-inverse-link-hover-bg;
+           // background-color: @navbar-inverse-link-hover-bg;
           }
         }
         > .active > a {
@@ -627,7 +627,7 @@
           &:hover,
           &:focus {
             color: @navbar-inverse-link-active-color;
-            background-color: @navbar-inverse-link-active-bg;
+            //background-color: @navbar-inverse-link-active-bg;
           }
         }
         > .disabled > a {
@@ -635,7 +635,7 @@
           &:hover,
           &:focus {
             color: @navbar-inverse-link-disabled-color;
-            background-color: @navbar-inverse-link-disabled-bg;
+            //background-color: @navbar-inverse-link-disabled-bg;
           }
         }
       }
@@ -663,4 +663,14 @@
       }
     }
   }
+}
+
+.navbar-bottom {
+	text-align: center;
+	> ul > li {
+		display: inline-block;
+		& a:focus {
+			background-color: transparent;
+		}
+	}
 }
